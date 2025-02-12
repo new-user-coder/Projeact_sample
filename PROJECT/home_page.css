@@ -1,0 +1,731 @@
+html {
+  scroll-behavior: smooth; 
+  scroll-padding-top: 80px;
+}
+
+.button_container {
+    margin-left: 600px;
+}
+
+.navbar_login {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.navbar_login:hover {
+    background-color: #9a9897;
+    color: white; 
+}
+
+.navbar_signup {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: whitesmoke;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar_signup:hover {
+    background-color: #9a9897; 
+    color: white;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar_elements {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.banner{
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Black shade overlay */
+                url("https://img.freepik.com/free-photo/maldives-island_74190-4652.jpg?t=st=1736745632~exp=1736749232~hmac=21e320ae9fded70d16c60874f661cfade33e4befa24f4d66a758464c66d920a6&w=996"); /* Banner image */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.banner_card_1 {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    height: 600px;
+    width: 400px;
+     /* Fixed width for better alignment */
+    text-align: center;
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for subtle contrast */
+}
+
+.banner_card_1 h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600; /* Bold heading */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.banner_card_1 .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 500; /* Slightly bold labels */
+}
+
+.banner_card_1 .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner_card_1 .form-group input:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Glow effect on focus */
+    outline: none;
+}
+
+.banner_card_1 .search-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner_card_1 .search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.offer-text {
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+.offer{
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(238, 36, 36);
+  font-weight: bold;
+}
+
+.heading{
+  color: whitesmoke;
+  text-align: center;
+}
+
+.subtitle{
+  color: white;
+  text-align: center;
+}
+
+.banner_card_2{
+  margin-left: 200px;
+  margin-top: 130px;
+}
+
+.profile{
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 200px;
+  height: 150px;
+  width: 160px;
+}
+
+.card_3 {
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-left: 230px;
+  max-width: 580px;
+  margin-top: 100px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card_3:hover{
+  transform: translateY(-10px) scale(1.05);
+  outline: 1px solid #fff;
+  outline-offset: 2px; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.profile_para{
+  padding-top:10px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.page2_container{
+  height: 700px;
+}
+.page2_heading_container{
+  margin-top: 70px;
+  text-align: center;
+}
+.page2_heading1{
+  margin-top: 10px;
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.page2_heading2{
+  color: #022346;
+  font-weight: bold;
+}
+
+.page2_card{
+  border-radius: 10px;
+  height: 470px;
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 60px;
+  background-color: rgb(223, 223, 235);
+  transition: transform 0.3s ease-in-out;
+}
+
+.page2_card:hover{
+  transform: translateY(-10px) scale(1.05);
+  
+}
+
+.hr1{
+  width: 95%;
+  margin-top: 5px;
+  border-style: solid;
+}
+
+.price_text{
+  font-size: 17px;
+  margin-left: 20px;
+  color: #022141;
+  font-style: italic;
+}
+
+.price{
+  font-size: 17px;
+  margin-left: 90px;
+  color: #022141;
+  font-weight: bold;
+}
+
+.page2_card_image{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.page2_card_heading{
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #9a9897;
+}
+
+.page2_card_para{
+  font-size:17px;
+  color: #022346;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.rating_container{
+  margin-top: 5px;
+  margin-left: 5px;
+  color: white;
+  background-color: red;
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.rating_star{
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.rating_points{
+  margin-top: 2px;
+  font-weight: bold;
+}
+
+.rating_reviews{
+  margin-left: 5px;
+  margin-top: 9px;
+}
+
+.hr{
+  width: 95%;
+  margin-top: 70px;
+  border-style: solid;
+  
+}
+
+.page2_digit_text_container{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+
+.page2_digit{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.page2_digit_text{
+  font-size: 20px;
+  margin-top: 13px;
+  color: #a8a4a3;
+}
+
+.page3{
+  margin-top: 50px;
+  background-color: #f3f1f1;
+  height: 760px;
+}
+
+.page3_heading_container{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.page3_card1{
+  border-radius: 10px;
+  background-size: cover;
+  position:center;
+  background-image: url("https://img.freepik.com/free-photo/island-symbol-storm-architecture-manhattan_1206-67.jpg?t=st=1736764305~exp=1736767905~hmac=5c11f8647f8815db1d006048dc349de1b9fb2c3aab4139f8454b53cfcb80b7de&w=996");
+  height: 230px;
+  width: 300px;
+  margin-left: 130px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page3_card1:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+
+.page3_card2{
+  border-radius: 10px;
+  background-size: cover;
+  position:center;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-shot-sydney-harbor-bridge-with-light-pink-blue-sky_181624-16041.jpg?t=st=1736763082~exp=1736766682~hmac=25ed9e6740df17624a2dcf28c28a3f4d50d47b9dbd242c7d97b05eb2fe9c70d3&w=996");
+  height: 230px;
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page3_card2:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+
+.page3_card3{
+  border-radius: 10px;
+  background-size: cover;
+  position:center;
+  background-image: url("https://img.freepik.com/free-photo/looking-across-valley-towering-mountains_181624-37022.jpg?t=st=1736763129~exp=1736766729~hmac=16a62dccb78f0e3a690b1362e9acc13d57fd3728ffe40df707f33608b2f47db6&w=996");
+  height: 230px;
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page3_card3:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+.page3_card4{
+  height: 230px;
+  width: 450px;
+  border-radius: 10px;
+  background-size: cover;
+  position:center;
+  background-image: url("https://img.freepik.com/free-photo/buddha-statue-wat-mahathat-temple-precinct-sukhothai-historical-park_335224-905.jpg?t=st=1736764989~exp=1736768589~hmac=2fc32b0fd0d8376522d78fe54d643a8f6e94e133f8b5c39ba5f2b67769433e2f&w=996");
+  margin-left: 125px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page3_card4:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+.page3_card5{
+  height: 230px;
+  width: 500px;
+  border-radius: 10px;
+  background-size: cover;
+  position:center;
+  background-image: url("https://img.freepik.com/free-photo/panoramic-istanbul-city-twilight-turkey_335224-1278.jpg?t=st=1736765095~exp=1736768695~hmac=f51fbd6d3b71cec375c25daa0195e9244470119c9ff43a3f4f0fdb122c569aba&w=1380");
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page3_card5:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+.page3_card6{
+  height: 480px;
+  width: 300px;
+  border-radius: 10px;
+  background-size: cover;
+  position:center;
+  background-image: url("https://img.freepik.com/free-photo/eiffel-tower-champ-de-mars-paris-france_53876-94788.jpg?t=st=1736765338~exp=1736768938~hmac=d8943ed660f61ae9711233c9398333c2de550846c59a27cda9536335ab22ee5c&w=360");
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page3_card6:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+.page3_card_place{
+  font-size: 30px;
+  margin-left: 3px;
+  margin-top: 190px;
+  color: white;
+  font-style: italic;
+}
+
+.page3_card_place_france{
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 430px;
+  color: white;
+  font-style: italic;
+}
+
+
+
+.page4_card_icon_adventure{
+  height: 280px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.page4_card_icon_beach{
+  margin-top:20px;
+  height: 280px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.page4_card_icon_boat{
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+.page4_card_heading{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.flip-card{
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Adds 3D effect */
+  margin: 50px auto;
+  border-radius: 20px;
+
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s; /* Animation speed */
+  transform-style: preserve-3d; /* Ensures 3D effect */
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); /* Rotates 180 degrees */
+}
+
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+.flip-card-front {
+  background-color: #fcfeff;
+  color: white;
+}
+
+/* Back side styling */
+.flip-card-back {
+  background-color: #faf9f9;
+  color: rgb(17, 17, 17);
+  transform: rotateY(180deg); /* Initially flipped */
+}
+
+.span{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.page4card_para{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #e74c3c;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-section span {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #e74c3c;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #e74c3c;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #c0392b;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Add animation to the dialog box */
+.dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  animation: fadeIn 0.5s;
+}
+
+.dialog-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  animation: zoomIn 0.5s;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close:hover {
+  color: red;
+}
+
+/* Add zoom in and zoom out effect to the dialog box */
+.dialog-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  animation: zoom-in 0.5s;
+}
+
+.dialog-content.zoom-out {
+  animation: zoom-out 0.5s;
+}
+
+#chatbot-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#user-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chatbot-response {
+  background-color: #ccc;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-input {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="home_page.css">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/f20fde5571.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="shadow-lg">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+        <img src="images/logo.jpg" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active navbar_elements">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item navbar_elements">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item navbar_elements">
+              <a class="nav-link" href="#page2">Tours</a>
+            </li>
+            <li class="nav-item navbar_elements">
+              <a class="nav-link" href="#page3">Destination</a>
+            </li>
+            <li class="nav-item navbar_elements">
+              <a class="nav-link" href="#page4">Categories</a>
+            </li>
+            <li class="nav-item navbar_elements">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <div class="button_container d-flex flex-row">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                <button class="navbar_login">Login</button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                <button class="navbar_signup">Signup</button>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="banner d-flex flex-row">
+      <div class="d-flex flex-column">
+        <div class="banner_card_2">
+          <p class="offer">"Save 15% off in Worldwide!"</p>
+          <h1 class="heading">Travel & Adventures</h1>
+          <p class="subtitle">Find awesome hotels, tours, cars, and activities.</p>
+        </div>
+        <div class="card_3 shadow-lg">
+          <div>
+            <img src="images/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair (1).jpg" class="profile">
+          </div>
+          <div>
+            <p class="profile_para">"Exploring the world has never been so easy and fun! Thanks to JustTravel, I had an unforgettable experience visiting Bali. 
+              From booking my flight to arranging local tours and accommodations, everything was seamless.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="banner_card_1">
+        <h2>Plan Your Trip</h2>
+        <form>
+          <div class="form-group">
+            <label for="Destination">Destination</label>
+            <input type="text" placeholder="Enter your Destination">
+          </div>
+          <div class="form-group">
+            <label for="Type">Type</label>
+            <input type="text" placeholder="Activities">
+          </div>
+          <div class="form-group">
+            <label for="Date">Date</label>
+            <input type="date" placeholder="MM--DD--YYYY">
+          </div>
+          <div class="form-group">
+            <label for="Type">Guest</label>
+            <input type="number" placeholder="Enter number of guests" min="1" max="10">
+          </div>
+          <button type="submit" class="search-button">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="page2_container" id="page2">
+      <div>
+        <div class="page2_heading_container">
+          <h1 class=""></h1>
+          <h1 class="page2_heading2"><span class="page2_heading1">Tours<br></span>Most popular Tours</h1>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="page2_card shadow-lg">
+          <div>
+            <img src="https://img.freepik.com/free-photo/aerial-shot-tropical-beach-sri-lanka-perfect-family-vacation_181624-8146.jpg?t=st=1736754795~exp=1736758395~hmac=9a8b95ce72ec68274bb0861f7ec3d5963792ac4f3a21460601278e10648fc012&w=900" class="page2_card_image">
+          </div>
+          <div>
+            <h1 class="page2_card_heading">Goa, India</h1>
+            <p class="page2_card_para">Goa is a perfect blend of adventure, relaxation, vibrant festivals, scenic landscapes, delicious cuisine, and warm hospitality.</p>
+            <div class="d-flex flex-row">
+              <div class="rating_container d-flex flex-row">
+                <div class="rating_star">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                  <p class="rating_points">4.5</p>
+                </div>
+              </div>
+              <p class="rating_reviews"> 15 reviews</p>
+            </div>
+            <hr class="hr1">
+            <div class="d-flex flex-row">
+              <div>
+                <p class="price_text">Starting from:</p>
+              </div>
+              <div>
+                <p class="price">₹6,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page2_card shadow-lg">
+          <div>
+            <img src="https://img.freepik.com/free-photo/beautiful-view-rice-fields-lush-green-leepa-valley-kashmir-pakistan_505751-5822.jpg?t=st=1736757064~exp=1736760664~hmac=0c4e2f964f6c66e91096244b55e4f90bbf869136d871e88e18c6df39b65928ae&w=900" class="page2_card_image">
+          </div>
+          <div>
+            <h1 class="page2_card_heading">Kashmir, India</h1>
+            <p class="page2_card_para">Kashmir is known for its breathtaking landscapes, serene valleys, snow-capped mountains, rich culture, and vibrant gardens.</p>
+            <div class="d-flex flex-row">
+              <div class="rating_container d-flex flex-row">
+                <div class="rating_star">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                  <p class="rating_points">4.2</p>
+                </div>
+              </div>
+              <p class="rating_reviews"> 19 reviews</p>
+            </div>
+            <hr class="hr1">
+            <div class="d-flex flex-row">
+              <div>
+                <p class="price_text">Starting from:</p>
+              </div>
+              <div>
+                <p class="price">₹12,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page2_card shadow-lg">
+          <div>
+            <img src="https://img.freepik.com/free-photo/fog-nature-forest-woods-india_1376-26.jpg?t=st=1736757222~exp=1736760822~hmac=d444bcb61a90dcb10d0933b71bdabdb4defd8a42ed8ce7e760ca32b26cc850c4&w=1380" class="page2_card_image">
+          </div>
+          <div>
+            <h1 class="page2_card_heading">Kerala, India</h1>
+            <p class="page2_card_para">Kerala is famous for its lush backwaters, scenic beaches, rich culture, Ayurvedic treatments, and vibrant festivals.</p>
+            <div class="d-flex flex-row">
+              <div class="rating_container d-flex flex-row">
+                <div class="rating_star">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                  <p class="rating_points">4.7</p>
+                </div>
+              </div>
+              <p class="rating_reviews"> 22 reviews</p>
+            </div>
+            <hr class="hr1">
+            <div class="d-flex flex-row">
+              <div>
+                <p class="price_text">Starting from:</p>
+              </div>
+              <div>
+                <p class="price">₹7,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page2_card shadow-lg">
+          <div>
+            <img src="https://images.pexels.com/photos/5491756/pexels-photo-5491756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="page2_card_image">
+          </div>
+          <div>
+            <h1 class="page2_card_heading">Hyderabad, India</h1>
+            <p class="page2_card_para">Hyderabad is known for its rich history, iconic landmarks like the Charminar, delicious cuisine such as biryani, thriving tech industry.</p>
+            <div class="d-flex flex-row">
+              <div class="rating_container d-flex flex-row">
+                <div class="rating_star">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                  <p class="rating_points">4.9</p>
+                </div>
+              </div>
+              <p class="rating_reviews"> 21 reviews</p>
+            </div>
+            <hr class="hr1">
+            <div class="d-flex flex-row">
+              <div>
+                <p class="price_text">Starting from:</p>
+              </div>
+              <div>
+                <p class="price">₹5,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="chatbot-icon" class="chatbot-icon">
+        <i class="fa fa-robot" aria-hidden="true"></i>
+      </div>
+      <div id="chatbot-container" class="chatbot-container" style="display: none;">
+        <input id="user-input" type="text" placeholder="Enter your message">
+      </div>
+    
+    </div>
+    <hr class="hr">
+    <div class="d-flex flex-row">
+      <div class="d-flex flex-row page2_digit_text_container">
+        <div>
+          <h1 class="page2_digit">120+</h1>
+        </div>
+        <div>
+          <p class="page2_digit_text">Total Destination</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row page2_digit_text_container">
+        <div>
+          <h1 class="page2_digit">300+</h1>
+        </div>
+        <div>
+          <p class="page2_digit_text">Travel packages</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row page2_digit_text_container">
+        <div>
+          <h1 class="page2_digit">10k+</h1>
+        </div>
+        <div>
+          <p class="page2_digit_text">Total Travelers</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row page2_digit_text_container">
+        <div>
+          <h1 class="page2_digit">6k+</h1>
+        </div>
+        <div>
+          <p class="page2_digit_text">Positive Reviews</p>
+        </div>
+      </div>
+    </div>
+    <div class="page3" id="page3">
+      <div class="page3_heading_container">
+        <p class="page2_heading1">Destination</p>
+        <h1 class="page2_heading2">Top Attractions Destinations</h1>
+      </div>
+      <div>
+        <div class="d-flex flex-row">
+          <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+              <div class="page3_card1">
+                <h1 class="page3_card_place">America</h1>
+              </div>
+              <div class="page3_card2">
+                <h1 class="page3_card_place">Australia</h1>
+              </div>
+              <div class="page3_card3">
+                <h1 class="page3_card_place">Switzerland</h1>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div class="page3_card4">
+                <h1 class="page3_card_place">Thailand</h1>
+              </div>
+              <div class="page3_card5">
+                <h1 class="page3_card_place">Turkey</h1>
+              </div>
+            </div>
+          </div>
+          <!-- Dialog Box HTML for Destinations -->
+          <div class="dialog" id="america-dialog">
+            <div class="dialog-content">
+              <span class="close">&times;</span>
+              <h2>America Tour</h2>
+              <p>America is a vast and diverse country, known for its iconic cities, breathtaking natural landscapes, and vibrant culture.</p>
+              <p>Our America tour package includes:</p>
+              <ul>
+                <li>Visit to iconic cities like New York, Los Angeles, and Las Vegas</li>
+                <li>Explore the breathtaking natural beauty of the Grand Canyon, Yellowstone, and Yosemite</li>
+                <li>Experience the vibrant culture of America, including its music, food, and art</li>
+              </ul>
+              <p>Duration: 10 days</p>
+              <p>Price: ₹50,000</p>
+            </div>
+          </div>
+          <div class="dialog" id="australia-dialog">
+            <div class="dialog-content">
+              <span class="close">&times;</span>
+              <h2>Australia Tour</h2>
+              <p>Australia is a country known for its stunning beaches, unique wildlife, and vibrant cities.</p>
+              <p>Our Australia tour package includes:</p>
+              <ul>
+                <li>Visit to iconic cities like Sydney, Melbourne, and Brisbane</li>
+                <li>Explore the breathtaking natural beauty of the Great Barrier Reef, the Blue Mountains, and the Outback</li>
+                <li>Experience the vibrant culture of Australia, including its music, food, and art</li>
+              </ul>
+              <p>Duration: 12 days</p>
+              <p>Price: ₹75,000</p>
+            </div>
+          </div>
+          <div class="dialog" id="switzerland-dialog">
+            <div class="dialog-content">
+              <span class="close">&times;</span>
+              <h2>Switzerland Tour</h2>
+              <p>Switzerland is a country known for its stunning mountains, pristine lakes, and vibrant cities.</p>
+              <p>Our Switzerland tour package includes:</p>
+              <ul>
+                <li>Visit to iconic cities like Zurich, Geneva, and Bern</li>
+                <li>Explore the breathtaking natural beauty of the Swiss Alps, Lake Geneva, and Lake Lucerne</li>
+                <li>Experience the vibrant culture of Switzerland, including its music, food, and art</li>
+              </ul>
+              <p>Duration: 10 days</p>
+              <p>Price: ₹60,000</p>
+            </div>
+          </div>
+          <div class="dialog" id="thailand-dialog">
+            <div class="dialog-content">
+              <span class="close">&times;</span>
+              <h2>Thailand Tour</h2>
+              <p>Thailand is a country known for its stunning beaches, delicious cuisine, and vibrant culture.</p>
+              <p>Our Thailand tour package includes:</p>
+              <ul>
+                <li>Visit to iconic cities like Bangkok, Chiang Mai, and Phuket</li>
+                <li>Explore the breathtaking natural beauty of the islands, beaches, and temples</li>
+                <li>Experience the vibrant culture of Thailand, including its music, food, and art</li>
+              </ul>
+              <p>Duration: 12 days</p>
+              <p>Price: ₹85,000</p>
+            </div>
+          </div>
+          <div class="dialog" id="turkey-dialog">
+            <div class="dialog-content">
+              <span class="close">&times;</span>
+              <h2>Turkey Tour</h2>
+              <p>Turkey is a country known for its stunning history, vibrant culture, and delicious cuisine.</p>
+              <p>Our Turkey tour package includes:</p>
+              <ul>
+                <li>Visit to iconic cities like Istanbul, Ankara, and Izmir</li>
+                <li>Explore the breathtaking natural beauty of the beaches, mountains, and valleys</li>
+                <li>Experience the vibrant culture of Turkey, including its music, food, and art</li>
+              </ul>
+              <p>Duration: 10 days</p>
+              <p>Price: ₹77,000</p>
+            </div>
+          </div>
+          <div class="dialog" id="france-dialog">
+            <div class="dialog-content">
+              <span class="close">&times;</span>
+              <h2>France Tour</h2>
+              <p>France is a country known for its stunning history, vibrant culture, and delicious cuisine.</p>
+              <p>Our France tour package includes:</p>
+              <ul>
+                <li>Visit to iconic cities like Paris, Lyon, and Bordeaux</li>
+                <li>Explore the breathtaking natural beauty of the French Riviera, the Alps, and the countryside</li>
+                <li>Experience the vibrant culture of France, including its music, food, and art</li>
+              </ul>
+              <p>Duration: 12 days</p>
+              <p>Price: ₹95,000</p>
+            </div>
+          </div>
+          <div class="page3_card6">
+            <h1 class="page3_card_place_france">France</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</div>
+    <div id="page4">
+      <div class="page2_heading_container">
+        <p class="page2_heading1">Browse By Category</p>
+        <h1 class="page2_heading2">Tour Types</h1>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front shadow-lg">
+              <div >
+                 <img src="images/black-white-logo-with-man-standing-front-forest-words-adventure-awaits_540745-1006.jpg" class="page4_card_icon_adventure">
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="page4card_para"><span class="span">Adventure Tours<br></span> An adventure tour offers thrilling experiences like trekking, rafting, or exploring remote 
+                landscapes,combining excitement with a touch of challenge. 
+                It's perfect for thrill-seekers,explorers unite, create unforgettable memories!".<span class="span"><br>Strating From: ₹5000</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front shadow-lg">
+              <div >
+                <img src="images/beach-umbrella-icon-vector-image-can-be-used-coastline_120816-312997.avif" class="page4_card_icon_boat">
+             </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="page4card_para"><span class="span">Beach Tours<br></span> Beach tours offer serene escapes with golden sands, 
+                crystal-clear waters, and breathtaking sunsets. Perfect for relaxation, adventure, or creating unforgettable seaside memories,more.
+                "Relax, unwind, and soak bliss!".<span class="span"><br>Strating From: ₹7000</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front shadow-lg">
+              <div >
+                <img src="images/onam-festival-boat-with-umbrella-vector-silhouette_990010-353.avif" class="page4_card_icon_boat">
+             </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="page4card_para"><span class="span">Boat Tours<br></span> Boat tours provide scenic journeys, 
+                blending relaxation and adventure on tranquil waters. 
+                Perfect for exploring hidden gems and enjoying breathtaking.
+                "Explore waters, create memories!"<span class="span"><br>Strating From: ₹9000</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front shadow-lg">
+              <div >
+                <img src="images/freepik__adjust__75138.png" class="page4_card_icon_adventure">
+             </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="page4card_para"><span class="span">Hiking Tours<br></span> Hiking offers a chance to explore breathtaking trails and 
+                connect with nature's beauty. 
+                It's perfect for adventure, fitness, and unforgettable outdoor experiences. with lot more challenges.
+                "Conquer trails, embrace nature!"<span class="span"><br>Strating From: ₹12000</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="contact">
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>JustTravel</h3>
+                <p>Need any help?</p>
+                <p>Call Us: <span>+919000000123</span></p>
+                <p>Hyderabad, India</p>
+                <p>www.JustTravelcom</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Travel Guides</a></li>
+                    <li><a href="#">Data Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Top Destination</h4>
+                <ul>
+                    <li><a href="#">Kerela</a></li>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a href="#">Goa</a></li>
+                    <li><a href="#">Kashmir</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h4>Sign up Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Enter email..." required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 JustTravel All Right Reserved</p>
+        </div>
+    </footer>
+    </div>
+    <script src="home_page.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
+//write a code for opening a dialog box when i click on card?
